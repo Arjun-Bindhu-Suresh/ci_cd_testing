@@ -7,5 +7,6 @@ def test_calculate_area():
 
 # New test using your student ID (100990351 -> Last two digits: 51)
 def test_calculate_area_student_id():
-    assert calculate_area(51) == 100  # Incorrect expected output
+    assert calculate_area(51) == 2601  # Correct expected output
+
 
